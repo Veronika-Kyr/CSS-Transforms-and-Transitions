@@ -197,6 +197,7 @@ h2 {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    transition: all 1s ease-in-out;
 }
 
 .triangle {
@@ -210,7 +211,19 @@ h2 {
     border-left: 55px solid white;
     border-bottom: 27.5px solid transparent;
     border-radius: 2px;
+    transition: border-left 1s ease-in-out;
 }
+
+
+div.btnPlay:hover {
+    background: white;
+    transform: scale(0.8);
+}
+
+div.btnPlay:hover>.triangle {
+    border-left: 55px solid var(--btn-color);
+}
+
 
 .learnMore {
     position: absolute;
