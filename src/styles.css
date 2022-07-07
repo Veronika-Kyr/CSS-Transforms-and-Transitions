@@ -82,12 +82,11 @@ h2 {
     margin: 0 auto;
     width: 63px;
     height: 63px;
-    transition: transform 1s ease-in-out 1s;
+    transition: transform 1s ease-in-out;
 }
 
 .logoBig:hover {
-    /* transform:; */
-    transform: rotateY(180deg) scale(2);
+    transform: rotateY(180deg) scale(1.8);
 }
 
 
